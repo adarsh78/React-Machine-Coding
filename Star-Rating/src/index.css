@@ -1,0 +1,38 @@
+body {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ratingCard {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.rating {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+.rating:hover {
+  background: gray;
+}
+
+.rating.selected {
+  background: green;
+  border-color: green;
+}
+
+p {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
