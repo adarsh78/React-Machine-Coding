@@ -2,3 +2,29 @@ body {
   background: #333;
   color: #fff;
 }
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.content {
+  margin: 1rem;
+  background: #555;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+}
