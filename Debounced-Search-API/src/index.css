@@ -1,4 +1,27 @@
 body {
   background: #333;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empData {
+  background: #777;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.searchContainer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.searchContainer input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 20rem;
 }
